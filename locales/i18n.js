@@ -9,15 +9,15 @@ import { LANGUAGE } from '../app/constants/storage';
 // Import all locales
 import en from './languages/en.json';
 import es from './languages/es.json';
-import hi from './languages/hi-in.json';
-import id from './languages/id-id.json';
-import ja from './languages/ja-jp.json';
-import ko from './languages/ko-kr.json';
-import pt from './languages/pt-br.json';
-import ru from './languages/ru-ru.json';
+import hi from './languages/hi.json';
+import id from './languages/id.json';
+import ja from './languages/ja.json';
+import ko from './languages/ko.json';
+import pt from './languages/pt.json';
+import ru from './languages/ru.json';
 import tl from './languages/tl.json';
-import vi from './languages/vi-vn.json';
-import zh from './languages/zh-cn.json';
+import vi from './languages/vi.json';
+import zh from './languages/zh.json';
 
 // Should the app fallback to English if user locale doesn't exists
 I18n.fallbacks = true;
