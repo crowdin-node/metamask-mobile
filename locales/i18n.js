@@ -19,23 +19,13 @@ import tl from './languages/tl';
 import vi from './languages/vi';
 import zh from './languages/zh';
 
+const supportedTranslations = { en, es, hi, id, ja, ko, pt, ru, tl, vi, zh };
+
 // Should the app fallback to English if user locale doesn't exists
 I18n.fallbacks = true;
 I18n.defaultLocale = 'en';
 // Define the supported translations
-I18n.translations = {
-	en,
-	es,
-	hi,
-	id,
-	ja,
-	ko,
-	pt,
-	ru,
-	tl,
-	vi,
-	zh,
-};
+I18n.translations = supportedTranslations;
 // If language selected get locale
 getUserPreferableLocale();
 
